@@ -24,7 +24,7 @@ print("Welcome to the curio shop!")
 print("Hope you find what you're looking for...")
 while True:
     print("What are you looking to do?")
-    choice = input("Buy/Sell/Mine\n")
+    choice = input("Buy/Sell/Mine/Exit\n")
     if choice.lower() == "buy":
         shop_buy(stock, inventory)
     elif choice.lower() == "sell":
